@@ -1,0 +1,67 @@
+.recipe-detail-container {
+    text-align: center;
+}
+
+.recipe-detail-white-list {
+    font-family: "Lobster", serif;
+    background: rgba(250, 235, 215, 0.62);
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 85vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+
+.detail-wrapper {
+    padding: 20px;
+}
+
+.detail-img-title-description {
+    display: flex;
+}
+
+.detail-title-description {
+    padding: 10px;
+}
+
+.detail-main-photo {
+    display: block;
+    margin: 10px;
+    width: 800px;
+}
+
+.detail-main-photo img {
+    filter: alpha(Opacity=80);
+    opacity: 0.8;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.detail-name-category {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-cooking-method {
+    padding: 10px;
+}
+
+.detail-wrapper p {
+    font-family: "Roboto Condensed", serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .detail-img-title-description {
+        display: block;
+        justify-content: center;
+    }
+    .detail-main-photo {
+        width: 100%;
+        margin: auto;
+    }
+
+}
